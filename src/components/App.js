@@ -4,12 +4,16 @@ import itemData from "../data/items";
 import { useState } from "react";
 
 
-function App() {
+function App(){
   const [color, setColor] = useState(false)
+  //const [clickCount, setClickCount] = useState(0)
+  //const [buttonText, setButtonText] = useState("Add to Cart")
 
   function changeColor(){
-    setColor()
+      setColor(appClass)
   }
+
+
   // replace 'false' with a state variable that can be toggled between true and false
   // this will be used for the Dark Mode Toggle feature
   const appClass = color ? "App dark" : "App light"
@@ -24,5 +28,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
