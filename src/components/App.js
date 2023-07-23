@@ -7,7 +7,6 @@ import { useState } from "react";
 function App(){
   const [color, setColor] = useState(false)
   //const [clickCount, setClickCount] = useState(0)
-  //const [buttonText, setButtonText] = useState("Add to Cart")
 
   function changeColor(){
       setColor(appClass)
